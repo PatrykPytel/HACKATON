@@ -5,7 +5,7 @@ using UnityEngine;
 public class movement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
+    private float speed = 6f;
     private float jumpingpower = 8f;
     private bool isfacingright = true;
     public Rigidbody2D rb;

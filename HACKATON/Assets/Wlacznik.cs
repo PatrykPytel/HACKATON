@@ -6,10 +6,10 @@ public class Wlacznik : MonoBehaviour
 {
     public int licznik = 0;
     public int maxlicznik = 1;
-    private Animator animator;
+    public Animator animator;
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+       
     }
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class Wlacznik : MonoBehaviour
     {
         if(licznik >= maxlicznik)
         {
-            //animator.SetBool("Otwieranie", true);
+            animator.SetBool("open", true);
             Debug.Log("udalo sie");
         }
     }

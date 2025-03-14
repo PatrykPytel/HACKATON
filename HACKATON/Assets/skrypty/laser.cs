@@ -7,10 +7,12 @@ public class Laser : MonoBehaviour
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private LayerMask mirrorsLayerMask;
     [SerializeField] private LayerMask playerLayerMask;
+    [SerializeField] private LayerMask buttonLayerMask;
 
     private Ray ray;
     private RaycastHit2D hit;
     private RaycastHit2D hit2;
+    private RaycastHit2D hit3;
     public GameObject player;
 
 
@@ -28,11 +30,16 @@ public class Laser : MonoBehaviour
         {
             hit = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, mirrorsLayerMask.value);
             hit2 = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, playerLayerMask.value);
+            hit3 = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, buttonLayerMask.value);
             lineRenderer.positionCount += 1;
             if(hit2)
             {
                 Destroy(player);
                 //animacjasmierci i gameover
+            }
+            if(hit3)
+            {
+                Debug.Log("sdsffddf");
             }
             if (hit)
             {

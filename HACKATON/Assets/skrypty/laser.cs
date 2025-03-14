@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Laser : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class Laser : MonoBehaviour
             if(hit2)
             {
                 Destroy(player);
-                //animacjasmierci i gameover
+                SceneManager.LoadScene("GameOver");
             }
             if(hit3)
             {

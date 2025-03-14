@@ -23,7 +23,7 @@ public class Wlacznik : MonoBehaviour
         if(licznik >= maxlicznik)
         {
             animator.SetBool("open", true);
-            Debug.Log("udalo sie");
+           // Debug.Log("udalo sie");
         }
     }
 

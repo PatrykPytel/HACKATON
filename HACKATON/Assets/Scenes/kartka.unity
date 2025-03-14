@@ -358,6 +358,7 @@ MonoBehaviour:
   buttonLayerMask:
     serializedVersion: 2
     m_Bits: 128
+  Wlacznik: {fileID: 1383111669}
   player: {fileID: 811669635}
 --- !u!212 &210593794
 SpriteRenderer:
@@ -925,6 +926,7 @@ GameObject:
   - component: {fileID: 1383111668}
   - component: {fileID: 1383111667}
   - component: {fileID: 1383111666}
+  - component: {fileID: 1383111669}
   m_Layer: 7
   m_Name: Square
   m_TagString: Untagged
@@ -1044,6 +1046,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1383111669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383111665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438a62f516a5470489adde05e86fd41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  licznik: 0
+  maxlicznik: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class Laser : MonoBehaviour
     [SerializeField] private LayerMask mirrorsLayerMask;
     [SerializeField] private LayerMask playerLayerMask;
     [SerializeField] private LayerMask buttonLayerMask;
-
+    [SerializeField] private Wlacznik Wlacznik;
     private Ray ray;
     private RaycastHit2D hit;
     private RaycastHit2D hit2;
@@ -39,7 +39,8 @@ public class Laser : MonoBehaviour
             }
             if(hit3)
             {
-                Debug.Log("sdsffddf");
+                Wlacznik.licznik = 1;
+               // Debug.Log("sdsffddf");
             }
             if (hit)
             {

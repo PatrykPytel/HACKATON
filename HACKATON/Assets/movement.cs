@@ -6,15 +6,16 @@ public class movement : MonoBehaviour
 {
     private float horizontal;
     private float speed = 8f;
-    private float jumpingpower = 6f;
+    private float jumpingpower = 8f;
     private bool isfacingright = true;
     public Rigidbody2D rb;
     public Transform groundCheck;
     public LayerMask groundLayer;
+
  
     void Start()
     {
-        
+
     }
 
     
@@ -30,6 +31,7 @@ public class movement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
         Flip();
+
     }
     private void FixedUpdate()
     {

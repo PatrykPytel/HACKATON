@@ -7,14 +7,14 @@ public class Laser : MonoBehaviour
     [SerializeField] private int maxReflections = 8;
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private LayerMask mirrorsLayerMask;
-    [SerializeField] private LayerMask playerLayerMask;
-    [SerializeField] private LayerMask buttonLayerMask;
-    [SerializeField] private Wlacznik Wlacznik;
+  //  [SerializeField] private LayerMask playerLayerMask;
+ //   [SerializeField] private LayerMask buttonLayerMask;
+ //   [SerializeField] private Wlacznik Wlacznik;
     private Ray ray;
     private RaycastHit2D hit;
-    private RaycastHit2D hit2;
-    private RaycastHit2D hit3;
-    public GameObject player;
+  //  private RaycastHit2D hit2;
+  //  private RaycastHit2D hit3;
+  //  public GameObject player;
 
 
 
@@ -30,19 +30,20 @@ public class Laser : MonoBehaviour
         for (int i = 0; i < maxReflections; i++)
         {
             hit = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, mirrorsLayerMask.value);
-            hit2 = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, playerLayerMask.value);
-            hit3 = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, buttonLayerMask.value);
+           // hit2 = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, playerLayerMask.value);
+           // hit3 = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, buttonLayerMask.value);
             lineRenderer.positionCount += 1;
-            if(hit2)
-            {
-                Destroy(player);
-                SceneManager.LoadScene("GameOver");
-            }
-            if(hit3)
-            {
-                Wlacznik.licznik = 1;
+         //   if(hit2)
+       //     {
+                //Destroy(player);
+       //         Debug.Log("Zginoles");
+              //  SceneManager.LoadScene("GameOver");
+       //     }
+       ///     if(hit3)
+      //      {
+       //         Wlacznik.licznik = 1;
                // Debug.Log("sdsffddf");
-            }
+   //         }
             if (hit)
             {
                 lineRenderer.SetPosition(lineRenderer.positionCount - 1, hit.point);

@@ -36,6 +36,7 @@ public class Laser : MonoBehaviour
             if(hit2)
             {
                 Destroy(player);
+                SceneManager.LoadScene("GameOver");
             }
             if(hit3)
             {

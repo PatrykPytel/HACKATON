@@ -790,7 +790,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e65f51a310377894c885ece0bd0f6f51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e70205a1f6f6cb547bfe28cead2fa5b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1690,7 +1690,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e65f51a310377894c885ece0bd0f6f51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e70205a1f6f6cb547bfe28cead2fa5b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1912,7 +1912,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e65f51a310377894c885ece0bd0f6f51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e70205a1f6f6cb547bfe28cead2fa5b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2181,10 +2181,6 @@ PrefabInstance:
     - target: {fileID: 3058344942246351804, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_Name
       value: lustro
-      objectReference: {fileID: 0}
-    - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2552,7 +2548,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e65f51a310377894c885ece0bd0f6f51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e70205a1f6f6cb547bfe28cead2fa5b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

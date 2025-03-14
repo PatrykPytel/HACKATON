@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Wlacznik : MonoBehaviour
+{
     public int licznik = 0;
     public int maxlicznik = 1;
     private Animator animator;

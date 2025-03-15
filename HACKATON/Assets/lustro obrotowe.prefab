@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4554908698995286329}
   - component: {fileID: 4326216484877324821}
   m_Layer: 3
-  m_Name: obrotfiutem
+  m_Name: lustro obrotowe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

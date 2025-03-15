@@ -11,6 +11,7 @@ public class movement : MonoBehaviour
     public Rigidbody2D rb;
     public Transform groundCheck;
     public LayerMask groundLayer;
+    public Animator anim;
 
  
     void Start()
@@ -22,6 +23,7 @@ public class movement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        anim.SetFloat("speed", Mathf.Abs(horizontal));
         if(Input.GetButtonDown("Jump")&& IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);

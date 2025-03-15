@@ -22,13 +22,16 @@ public class LaserInteraction : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        Debug.Log("Collision with: " + collision.tag); // Log the tag of the collided object
+
+        if (collision.CompareTag("Player"))
         {
             SceneManager.LoadScene("GameOver");
-            Destroy(player);
-        }else if(collision.tag == "Button")
+            Destroy(collision.gameObject);
+        }
+        else if (collision.CompareTag("Button"))
         {
-            Debug.Log("dziaka");
+            animator.SetBool("open",true);
         }
     }
 }

@@ -275,7 +275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3712643958786421584, guid: 1c0becc137a043c498c744100686f66e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.64
+      value: 2.93
       objectReference: {fileID: 0}
     - target: {fileID: 3712643958786421584, guid: 1c0becc137a043c498c744100686f66e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -559,6 +559,18 @@ PrefabInstance:
     - target: {fileID: 3058344942246351804, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_Name
       value: lustro (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8100482
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.37690777
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalPosition.x

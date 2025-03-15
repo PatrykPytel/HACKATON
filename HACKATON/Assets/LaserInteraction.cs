@@ -19,12 +19,11 @@ public class LaserInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Collision with: " + collision.tag); // Log the tag of the collided object
 
         if (collision.CompareTag("Player"))
         {
             playeranim.SetBool("dying", true);
-            Invoke("smierc", 0.75f);
+            Invoke("smierc", 1f);
             //   SceneManager.LoadScene("GameOver");
             // playeranim.SetBool("dying", true);
             // playeranim.SetBool("dying", true);

@@ -30,13 +30,12 @@ public class movement : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         
         anim.SetFloat("speed", Mathf.Abs(horizontal));
-        audioManager.PlaySFX(audioManager.steps);
         if (Input.GetButtonDown("Jump")&& IsGrounded())
         {
+            audioManager.PlaySFX(audioManager.floor);
             anim.SetBool("isGrounded", false);
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
             CreateDust();
-            audioManager.PlaySFX(audioManager.floor);
             Invoke("skok", 1.5f);
         }
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)

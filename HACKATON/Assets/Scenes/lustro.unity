@@ -1177,7 +1177,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.123651534}
@@ -1207,7 +1207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doobrotu: {fileID: 76178773}
   rotate: 45
-  test: 1
+  test: 0
 --- !u!1001 &530138750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1246,19 +1246,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9426036
+      value: 0.66904414
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.009561036
+      value: -0.0015775902
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.005667883
+      value: -0.01100225
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.33372897
+      value: 0.74313956
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1270,7 +1270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -39
+      value: 96
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4326216484877324821, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
@@ -1343,7 +1343,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.123651534}
@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doobrotu: {fileID: 806557579}
   rotate: 45
-  test: 1
+  test: 0
 --- !u!1 &557453578 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8055329133393341763, guid: 99c336035a7320846a33204cfc30606b, type: 3}
@@ -2550,19 +2550,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98805463
+      value: 0.54677886
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.01054437
+      value: 0.0011354506
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0035165162
+      value: -0.011057143
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.15370272
+      value: 0.8372033
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2574,7 +2574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -17.69
+      value: 113.697
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4326216484877324821, guid: b8308362412c0bd478d36cdf893481bf, type: 3}

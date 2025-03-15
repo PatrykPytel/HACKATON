@@ -773,6 +773,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1869518237}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 3776072012588465454}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518238}
     - target: {fileID: 7767897319252484367, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_Name
       value: LaserFather (1)
@@ -1183,8 +1195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c37e692dbf671a4fa91e689294327f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1869518237}
   animator: {fileID: 3776072012588465454}
+  playeranim: {fileID: 1869518238}
 --- !u!1001 &701151079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1195,7 +1207,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.42
+      value: 12.52
       objectReference: {fileID: 0}
     - target: {fileID: 6003312287398114517, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1237,10 +1249,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6478713373258634487, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1869518237}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 3776072012588465454}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518238}
     - target: {fileID: 7767897319252484367, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_Name
       value: LaserFather (2)
@@ -1248,10 +1268,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8055329133393341763, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1518036072}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99c336035a7320846a33204cfc30606b, type: 3}
 --- !u!1 &751890964
 GameObject:
@@ -1446,7 +1463,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: LaserFather (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1843,6 +1861,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1869518237}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518238}
     - target: {fileID: 7767897319252484367, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_Name
       value: LaserFather (5)
@@ -1852,28 +1878,14 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99c336035a7320846a33204cfc30606b, type: 3}
---- !u!1 &1518036070 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8055329133393341763, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-  m_PrefabInstance: {fileID: 701151079}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1518036072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518036070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c37e692dbf671a4fa91e689294327f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1869518237}
-  animator: {fileID: 3776072012588465454}
 --- !u!1 &1869518237 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6731042875549726690, guid: 21981de729be8ee4182e9dae80e79d5e, type: 3}
+  m_PrefabInstance: {fileID: 924301595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1869518238 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 601093256654453007, guid: 21981de729be8ee4182e9dae80e79d5e, type: 3}
   m_PrefabInstance: {fileID: 924301595}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1869518243 stripped
@@ -2261,6 +2273,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 3776072012588465454}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1869518237}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 3776072012588465454}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518238}
     - target: {fileID: 7767897319252484367, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_Name
       value: LaserFather (4)
@@ -2481,34 +2505,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 42.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.34202018
-      objectReference: {fileID: 0}
-    - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9396927
-      objectReference: {fileID: 0}
-    - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 140
-      objectReference: {fileID: 0}
+    - target: {fileID: 5823696258232562724, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1869518237}
+    - target: {fileID: 5823696258232562724, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 3776072012588465454}
     - target: {fileID: 6003312287398114517, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2549,10 +2553,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6478713373258634487, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2086701332}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518238}
     - target: {fileID: 7767897319252484367, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_Name
       value: LaserFather (6)
@@ -2560,30 +2568,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8055329133393341763, guid: 99c336035a7320846a33204cfc30606b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2086701333}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99c336035a7320846a33204cfc30606b, type: 3}
 --- !u!1 &2086701332 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8055329133393341763, guid: 99c336035a7320846a33204cfc30606b, type: 3}
   m_PrefabInstance: {fileID: 2086701331}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2086701333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086701332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c37e692dbf671a4fa91e689294327f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1869518237}
-  animator: {fileID: 3776072012588465454}
 --- !u!1001 &855303596166462813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2644,6 +2635,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 3776072012588465454}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1869518237}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 3776072012588465454}
+    - target: {fileID: 6987109249736146796, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518238}
     - target: {fileID: 7767897319252484367, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_Name
       value: LaserFather

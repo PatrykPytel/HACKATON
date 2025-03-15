@@ -60,13 +60,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7872207345711709934}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 11.91, y: 5.4, z: -0.5159799}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9396927, w: 0.34202018}
+  m_LocalPosition: {x: 42.9, y: 3.06, z: -0.5159799}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6003312287398114517}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 140}
 --- !u!212 &4251876518650941482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 178684402269154245}
   - component: {fileID: 6478713373258634487}
   - component: {fileID: 7641849181747800592}
-  - component: {fileID: 2568645447175674785}
+  - component: {fileID: 6987109249736146796}
   m_Layer: 0
   m_Name: Edge1
   m_TagString: Untagged
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laser: {fileID: 7872207345711709934}
---- !u!114 &2568645447175674785
+--- !u!114 &6987109249736146796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

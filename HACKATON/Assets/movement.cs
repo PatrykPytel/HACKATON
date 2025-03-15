@@ -26,17 +26,14 @@ public class movement : MonoBehaviour
         anim.SetFloat("speed", Mathf.Abs(horizontal));
         if(Input.GetButtonDown("Jump")&& IsGrounded())
         {
-            
-            rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
             anim.SetBool("isGrounded", false);
-        }
-        else if (IsGrounded())
-        {
-            anim.SetBool("isGrounded", true);
+            rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
+            
+            Invoke("skok", 1.5f);
         }
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
-            anim.SetBool("isGrounded", false);
+            //anim.SetBool("isGrounded", false);
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
         Flip();
@@ -59,5 +56,9 @@ public class movement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+    private void skok()
+    {
+        anim.SetBool("isGrounded", true);
     }
 }

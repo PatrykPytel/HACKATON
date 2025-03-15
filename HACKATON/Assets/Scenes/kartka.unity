@@ -491,6 +491,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3959454639460477456, guid: 55635057922cfa844863f4b52a062633, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d04d7557cc311084d87908cc3d8f98df, type: 3}
+    - target: {fileID: 3959454639460477456, guid: 55635057922cfa844863f4b52a062633, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -537,6 +541,34 @@ PrefabInstance:
     - target: {fileID: 5235582675123207100, guid: 55635057922cfa844863f4b52a062633, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863451419553400828, guid: 55635057922cfa844863f4b52a062633, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4433451
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863451419553400828, guid: 55635057922cfa844863f4b52a062633, type: 3}
+      propertyPath: m_Size.y
+      value: 3.691182
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863451419553400828, guid: 55635057922cfa844863f4b52a062633, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.08166838
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863451419553400828, guid: 55635057922cfa844863f4b52a062633, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.16333759
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863451419553400828, guid: 55635057922cfa844863f4b52a062633, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863451419553400828, guid: 55635057922cfa844863f4b52a062633, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632673048896623086, guid: 55635057922cfa844863f4b52a062633, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8421767340402708605, guid: 55635057922cfa844863f4b52a062633, type: 3}
       propertyPath: m_EdgeRadius
@@ -2001,8 +2033,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457889772771497416, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.82
+      value: 5.44
       objectReference: {fileID: 0}
+    - target: {fileID: 4251876518650941482, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 637218d40c2d9424584a29a0f54d36d9, type: 3}
     - target: {fileID: 6003312287398114517, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

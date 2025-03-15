@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doobrotu: {fileID: 76178773}
-  rotate: 45
+  rotate: -45
   test: 0
 --- !u!1001 &530138750
 PrefabInstance:
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doobrotu: {fileID: 806557579}
-  rotate: 45
+  rotate: -45
   test: 0
 --- !u!1 &557453578 stripped
 GameObject:

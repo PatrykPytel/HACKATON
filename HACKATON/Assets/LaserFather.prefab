@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 178684402269154245}
   - component: {fileID: 6478713373258634487}
   - component: {fileID: 7641849181747800592}
+  - component: {fileID: 6841220967439399503}
   m_Layer: 0
   m_Name: Edge1
   m_TagString: Untagged
@@ -349,7 +350,7 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -374,3 +375,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laser: {fileID: 7872207345711709934}
+--- !u!114 &6841220967439399503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8055329133393341763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c37e692dbf671a4fa91e689294327f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  animator: {fileID: 0}

@@ -560,10 +560,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: lustro (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.04

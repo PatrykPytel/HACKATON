@@ -13,23 +13,30 @@ public class movement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     public Animator anim;
-
+    AudioManager audioManager;
  
     void Start()
     {
 
     }
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
-    
+
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        
         anim.SetFloat("speed", Mathf.Abs(horizontal));
-        if(Input.GetButtonDown("Jump")&& IsGrounded())
+        audioManager.PlaySFX(audioManager.steps);
+        if (Input.GetButtonDown("Jump")&& IsGrounded())
         {
             anim.SetBool("isGrounded", false);
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
             CreateDust();
+            audioManager.PlaySFX(audioManager.floor);
             Invoke("skok", 1.5f);
         }
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)

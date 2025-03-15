@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8944686969421494735}
   - component: {fileID: 3395250995096399226}
   m_Layer: 3
-  m_Name: Square 1
+  m_Name: ruchanie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1001,6 +1001,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lustro (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
+      propertyPath: m_Size.y
+      value: 12.251986
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
+      propertyPath: m_Offset.y
+      value: 5.6259937
+      objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.02
@@ -2169,11 +2177,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_Size.y
-      value: 9.777095
+      value: 15.6704235
       objectReference: {fileID: 0}
     - target: {fileID: 4554908698995286329, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_Offset.y
-      value: 4.3885474
+      value: 7.3352118
       objectReference: {fileID: 0}
     - target: {fileID: 6481106556009207413, guid: b8308362412c0bd478d36cdf893481bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2759,7 +2767,7 @@ Transform:
   m_GameObject: {fileID: 8548307516372959877}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.000000003950845, w: 1}
-  m_LocalPosition: {x: 8.98, y: 0.71, z: -10}
+  m_LocalPosition: {x: 14.89, y: 0.71, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

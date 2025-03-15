@@ -6,9 +6,9 @@ public class Laser : MonoBehaviour
 {
     [SerializeField] private float maxLength = 8f;
     [SerializeField] private int maxReflections = 8;
-    [SerializeField] private LineRenderer lineRenderer;
+    public LineRenderer lineRenderer;
     [SerializeField] private LayerMask mirrorsLayerMask;
-    private EdgeCollider2D edgeCollider;
+    
     //  [SerializeField] private LayerMask playerLayerMask;
     //   [SerializeField] private LayerMask buttonLayerMask;
     //   [SerializeField] private Wlacznik Wlacznik;
@@ -21,7 +21,7 @@ public class Laser : MonoBehaviour
 
     private void Start()
     {
-        edgeCollider = GetComponent<EdgeCollider2D>();
+        
     }
     private void Update()
     {
@@ -48,20 +48,7 @@ public class Laser : MonoBehaviour
             //      {
             //         Wlacznik.licznik = 1;
             // Debug.Log("sdsffddf");
-            if (lineRenderer.positionCount >= 2)
-            {
-                // Set the EdgeCollider2D points to the LineRenderer positions
-                List<Vector2> colliderPoints = new List<Vector2>(lineRenderer.positionCount);
 
-                for (int j = 0; j < lineRenderer.positionCount; j++)
-                {
-                    // Convert the LineRenderer's world positions to local positions
-                    colliderPoints.Add(lineRenderer.GetPosition(j));
-                }
-
-                // Update the EdgeCollider2D's points to follow the LineRenderer
-                edgeCollider.SetPoints(colliderPoints);
-            }
             //         }
             if (hit)
             {

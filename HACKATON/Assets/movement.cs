@@ -26,10 +26,17 @@ public class movement : MonoBehaviour
         anim.SetFloat("speed", Mathf.Abs(horizontal));
         if(Input.GetButtonDown("Jump")&& IsGrounded())
         {
+            
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
+            anim.SetBool("isGrounded", false);
         }
-        if(Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        else if (IsGrounded())
         {
+            anim.SetBool("isGrounded", true);
+        }
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        {
+            anim.SetBool("isGrounded", false);
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
         Flip();

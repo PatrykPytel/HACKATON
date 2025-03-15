@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
+    public ParticleSystem Dust;
     private float horizontal;
     private float speed = 6f;
     private float jumpingpower = 8f;
@@ -28,7 +29,7 @@ public class movement : MonoBehaviour
         {
             anim.SetBool("isGrounded", false);
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
-            
+            CreateDust();
             Invoke("skok", 1.5f);
         }
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
@@ -55,10 +56,15 @@ public class movement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+            CreateDust();
         }
     }
     private void skok()
     {
         anim.SetBool("isGrounded", true);
+    }
+    void CreateDust()
+    {
+        Dust.Play();
     }
 }

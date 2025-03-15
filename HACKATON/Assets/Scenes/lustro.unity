@@ -733,6 +733,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 3776072012588465454}
+    - target: {fileID: 2568645447175674785, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518244}
     - target: {fileID: 6003312287398114517, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1187,8 +1191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c37e692dbf671a4fa91e689294327f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1869518237}
   animator: {fileID: 3776072012588465454}
+  playeranim: {fileID: 1869518244}
 --- !u!1001 &701151079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1809,6 +1813,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 3776072012588465454}
+    - target: {fileID: 2568645447175674785, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518244}
     - target: {fileID: 6003312287398114517, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1875,8 +1883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c37e692dbf671a4fa91e689294327f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1869518237}
   animator: {fileID: 3776072012588465454}
+  playeranim: {fileID: 1869518244}
 --- !u!1 &1869518237 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6731042875549726690, guid: 21981de729be8ee4182e9dae80e79d5e, type: 3}
@@ -1885,6 +1893,11 @@ GameObject:
 --- !u!4 &1869518243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2042926085175117212, guid: 21981de729be8ee4182e9dae80e79d5e, type: 3}
+  m_PrefabInstance: {fileID: 924301595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1869518244 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 601093256654453007, guid: 21981de729be8ee4182e9dae80e79d5e, type: 3}
   m_PrefabInstance: {fileID: 924301595}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1878461911
@@ -2215,6 +2228,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1869518237}
+    - target: {fileID: 2568645447175674785, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518244}
     - target: {fileID: 6003312287398114517, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2597,8 +2614,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c37e692dbf671a4fa91e689294327f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1869518237}
   animator: {fileID: 3776072012588465454}
+  playeranim: {fileID: 1869518244}
 --- !u!1001 &855303596166462813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2615,6 +2632,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1869518237}
+    - target: {fileID: 2568645447175674785, guid: 99c336035a7320846a33204cfc30606b, type: 3}
+      propertyPath: playeranim
+      value: 
+      objectReference: {fileID: 1869518244}
     - target: {fileID: 6003312287398114517, guid: 99c336035a7320846a33204cfc30606b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

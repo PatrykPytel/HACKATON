@@ -6,28 +6,30 @@ using UnityEngine.Tilemaps;
 
 public class LaserInteraction : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
     public Animator animator;
+    public Animator playeranim;
 
     // Start is called before the first frame update
-    void Start()
+
+    private void smierc()
     {
-        
+        SceneManager.LoadScene("GameOver");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Collision with: " + collision.tag); // Log the tag of the collided object
 
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene("GameOver");
-            Destroy(collision.gameObject);
+            playeranim.SetBool("dying", true);
+            Invoke("smierc", 0.75f);
+            //   SceneManager.LoadScene("GameOver");
+            // playeranim.SetBool("dying", true);
+            // playeranim.SetBool("dying", true);
+
+            //Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("Button"))
         {
